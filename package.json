@@ -1,0 +1,40 @@
+{
+  "name": "react-es6-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch & gulp watch & nodemon server/server.js & nodemon client/server.js"
+  },
+  "author": "Michael Hottman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^7.1.7",
+    "knex": "^0.11.10",
+    "lscache": "^1.0.7",
+    "morgan": "^1.7.0",
+    "pg": "^6.0.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1",
+    "superagent": "^2.1.0",
+    "superagent-auth-bearer": "0.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "webpack": "^1.13.1"
+  }
+}
